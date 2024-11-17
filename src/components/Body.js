@@ -87,7 +87,7 @@ const styles = {
         justifyContent: "center",
         gap: "1em",
         padding: "1em",
-        backgroundColor: "#ffffff",
+        backgroundColor: "rgba(255, 255, 255, 0)",
         marginBottom: "4em",
     },
 
