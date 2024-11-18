@@ -7,6 +7,18 @@ const Body = () => {
 
     const cards = [
         {
+
+            // Картка екземпляру
+            id: 1,
+            img: "/Eva_Ivanova.jpg",
+            name: "Ivanova Eva",
+            position: "Software Engineer",
+            info: "Software Engineering student at LPNU with experience in C, C++, and Assembly. Passionate about coding and eager to learn new technologies. Strong foundation in software development principles and algorithms. Enjoys collaborating in team environments and has excellent problem-solving skills. Dedicated to continuous learning and personal growth, and looking forward to applying skills in real-world projects."
+                + " \u25AA Location: Lviv. \u25AA Number: +380672048040. \u25AA Email: veronika-ieva.ivanova.pz.2023@lpnu.ua"
+        },
+        {
+            // Картка екземпляру
+
             id: 2,
             img: "/Ivaskevych_Tamila.jpg",
             name: "Ivaskevych Tamila",        
@@ -25,6 +37,7 @@ const Body = () => {
         },
         {
             // Nazar Card
+
             id: 4,
             img: "/Nazar_Kobliuk.jpg",     // Шлях до зображення
             name: "Kobliuk Nazar",                // Ім'я картки
@@ -38,7 +51,7 @@ const Body = () => {
             img: "/Vlad_Melnychuk.png",     // Шлях до зображення
             name: "Melnychuk Vladyslav",                // Ім'я картки
             position: "Software Engineer",  // Посада в картці
-            info: "I am a skilled full-stack developer specializing in C++ and C# programming, with expertise in WinForms and WPF. He is passionate about object-oriented programming, creating efficient algorithms, and process automation. I have experience in database management, multithreading, and integrating server solutions."
+            info: "I am a proficient developer specializing in C and C++ programming, with foundational knowledge of assembly language. Currently, I am studying at NULP University, with a strong interest in algorithm optimization, multithreading, and low-level programming. I enjoy tackling complex technical challenges and building efficient solutions."
                 + " \u25AA Location: Lviv. \u25AA Number: +380933847300. \u25AA Email: vladyslav.melnychuk.pz.2023@lpnu.ua" // Контактна інформація
         }
     ];
@@ -88,8 +101,8 @@ const Body = () => {
                             ...(selectedCard?.id === card.id
                                 ? {
                                     ...styles.selectedCard,
-                                    border: card.id === 4 ? "2px solid #68001D" : card.id === 3 ? "2px solid #91646c" : card.id === 2 ? "2px solid #FF69B4" : "2px solid #111111",
-                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : card.id === 3 ? "0 4px 50px rgba(191,151,171, 0.9)" : card.id === 2 ? "0 4px 50px rgba(255, 105, 180, 0.6)" :"0 4px 50px rgba(110, 0, 110, 0.6)"
+                                    border: card.id === 4 ? "2px solid #68001D" : card.id === 3 ? "2px solid #91646c" : card.id === 2 ? "2px solid #FF69B4" : card.id === 1 ? "2px solid #131954" : card.id === 6 ? "2px solid #C62E2E" : "2px solid #111111",
+                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : card.id === 3 ? "0 4px 50px rgba(191,151,171, 0.9)" : card.id === 2 ? "0 4px 50px rgba(255, 105, 180, 0.6)" : card.id === 1 ? "0 4px 50px rgba(28, 43, 186, 0.9)" : card.id === 6 ? "0 4px 50px rgba(249, 84, 84, 0.8)":"0 4px 50px rgba(110, 0, 110, 0.6)"
 
                                   }
                                 : {}),
