@@ -7,6 +7,14 @@ const Body = () => {
 
     const cards = [
         {
+            id: 2,
+            img: "/Ivaskevych_Tamila.jpg",
+            name: "Ivaskevych Tamila",        
+            position: "Software Engineer", 
+            info: "I am currently studying Software Engineering at LPNU with experience in programming languages such as C, C++, and Assembly.  I enjoy the creative process of coding and the satisfaction of solving complex problems, whether it's developing software, working on algorithms, or experimenting with new tools." 
+                + " \u25AA Location: Lviv. \u25AA Number: +380989996824. \u25AA Email: tamila.ivaskevych.pz.2023@lpnu.ua" 
+        },
+        {
             // Картка екземпляру
             id: 4,
             img: "/Nazar_Kobliuk.jpg",     // Шлях до зображення
@@ -62,8 +70,8 @@ const Body = () => {
                             ...(selectedCard?.id === card.id
                                 ? {
                                     ...styles.selectedCard,
-                                    border: card.id === 4 ? "2px solid #68001D" : "2px solid #111111",
-                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : "0 4px 50px rgba(110, 0, 110, 0.6)"
+                                    border: card.id === 4 ? "2px solid #68001D" : card.id === 2 ? "2px solid #FF69B4" : "2px solid #111111",
+                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : card.id === 2 ? "0 4px 50px rgba(255, 105, 180, 0.6)" :"0 4px 50px rgba(110, 0, 110, 0.6)"
                                   }
                                 : {}),
                         }}
