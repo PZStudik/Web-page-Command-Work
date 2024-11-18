@@ -14,7 +14,17 @@ const Body = () => {
             position: "Software Engineer",  // Посада в картці
             info: "I am a Software Engineering student at LPNU with experience in C, C++, and Assembly programming. I am also familiar with Python and Pascal and have minor experience in HTML/CSS for creating simple web pages. I enjoy solving problems, learning new technologies, and working on both system-level and web development projects." // Інформація про картку
                 + " \u25AA Location: Lviv. \u25AA Number: +380664118658. \u25AA Email: nazar.kobliuk.pz.2023@lpnu.ua" // Контактна інформація
+        },
+        {
+            // Картка екземпляру
+            id: 11,
+            img: "/girlygirl.jpg",     // Шлях до зображення
+            name: "Kuryshchuk Uliana",                // Ім'я картки
+            position: "Scrum Master",  // Посада в картці
+            info: "I am a Software Engineering student at LPNU with experience in C, C++, and Assembly programming. Actually, as I am a scrum master, I don't do much, just bring optimism to the table, but I guess that's enough." // Інформація про картку
+                + " \u25AA Location: Lviv. \u25AA Number: +380989698651. \u25AA Email: kuryshchukuliana25@gmail.com" // Контактна інформація
         }
+
     ];
 
     // Стан для збереження вибраної картки
