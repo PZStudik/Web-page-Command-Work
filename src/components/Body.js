@@ -12,7 +12,7 @@ const Body = () => {
             img: "/Eva_Ivanova.jpg",
             name: "Ivanova Eva",
             position: "Software Engineer",
-            info: "Software Engineering student at LPNU with experience in C, C++."
+            info: "Software Engineering student at LPNU with experience in C, C++, Assembly."
                 + " \u25AA Location: Lviv. \u25AA Number: +380672048040. \u25AA Email: veronika-ieva.ivanova.pz.2023@lpnu.ua"
         },
         {
