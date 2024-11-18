@@ -31,6 +31,15 @@ const Body = () => {
             position: "Software Engineer",  // Посада в картці
             info: "I am a Software Engineering student at LPNU with experience in C, C++, and Assembly programming. I am also familiar with Python and Pascal and have minor experience in HTML/CSS for creating simple web pages. I enjoy solving problems, learning new technologies, and working on both system-level and web development projects." // Інформація про картку
                 + " \u25AA Location: Lviv. \u25AA Number: +380664118658. \u25AA Email: nazar.kobliuk.pz.2023@lpnu.ua" // Контактна інформація
+        },
+        {
+            //Vlad Card
+            id: 6,
+            img: "/Vlad_Melnychuk.png",     // Шлях до зображення
+            name: "Melnychuk Vladyslav",                // Ім'я картки
+            position: "Software Engineer",  // Посада в картці
+            info: "I am a skilled full-stack developer specializing in C++ and C# programming, with expertise in WinForms and WPF. He is passionate about object-oriented programming, creating efficient algorithms, and process automation. I have experience in database management, multithreading, and integrating server solutions."
+                + " \u25AA Location: Lviv. \u25AA Number: +380933847300. \u25AA Email: vladyslav.melnychuk.pz.2023@lpnu.ua" // Контактна інформація
         }
     ];
 
