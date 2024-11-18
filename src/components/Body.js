@@ -46,6 +46,16 @@ const Body = () => {
                 + " \u25AA Location: Lviv. \u25AA Number: +380664118658. \u25AA Email: nazar.kobliuk.pz.2023@lpnu.ua" // Контактна інформація
         },
         {
+
+            // Картка екземпляру
+            id: 5,
+            img: "/girlygirl.jpg",     // Шлях до зображення
+            name: "Kuryshchuk Uliana",                // Ім'я картки
+            position: "Software Engineer",  // Посада в картці
+            info: "I am a Software Engineering student at LPNU with experience in C, C++, and Assembly programming. Actually, as I am a scrum master, I don't do much, just bring optimism to the table, but I guess that's enough." // Інформація про картку
+                + " \u25AA Location: Lviv. \u25AA Number: +380989698651. \u25AA Email: kuryshchukuliana25@gmail.com" // Контактна інформація
+        },
+        {
             //Vlad Card
             id: 6,
             img: "/Vlad_Melnychuk.png",     // Шлях до зображення
@@ -53,7 +63,10 @@ const Body = () => {
             position: "Software Engineer",  // Посада в картці
             info: "I am a proficient developer specializing in C and C++ programming, with foundational knowledge of assembly language. Currently, I am studying at NULP University, with a strong interest in algorithm optimization, multithreading, and low-level programming. I enjoy tackling complex technical challenges and building efficient solutions."
                 + " \u25AA Location: Lviv. \u25AA Number: +380933847300. \u25AA Email: vladyslav.melnychuk.pz.2023@lpnu.ua" // Контактна інформація
+
         }
+
+
     ];
 
     // Стан для збереження вибраної картки
