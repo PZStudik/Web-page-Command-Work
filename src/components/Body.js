@@ -44,6 +44,15 @@ const Body = () => {
             position: "Software Engineer",  // Посада в картці
             info: "I am a Software Engineering student at LPNU with experience in C, C++, and Assembly programming. I am also familiar with Python and Pascal and have minor experience in HTML/CSS for creating simple web pages. I enjoy solving problems, learning new technologies, and working on both system-level and web development projects." // Інформація про картку
                 + " \u25AA Location: Lviv. \u25AA Number: +380664118658. \u25AA Email: nazar.kobliuk.pz.2023@lpnu.ua" // Контактна інформація
+        },
+        {
+            //Vlad Card
+            id: 6,
+            img: "/Vlad_Melnychuk.png",     // Шлях до зображення
+            name: "Melnychuk Vladyslav",                // Ім'я картки
+            position: "Software Engineer",  // Посада в картці
+            info: "I am a proficient developer specializing in C and C++ programming, with foundational knowledge of assembly language. Currently, I am studying at NULP University, with a strong interest in algorithm optimization, multithreading, and low-level programming. I enjoy tackling complex technical challenges and building efficient solutions."
+                + " \u25AA Location: Lviv. \u25AA Number: +380933847300. \u25AA Email: vladyslav.melnychuk.pz.2023@lpnu.ua" // Контактна інформація
         }
     ];
 
@@ -92,8 +101,8 @@ const Body = () => {
                             ...(selectedCard?.id === card.id
                                 ? {
                                     ...styles.selectedCard,
-                                    border: card.id === 4 ? "2px solid #68001D" : card.id === 3 ? "2px solid #91646c" : card.id === 2 ? "2px solid #FF69B4" : card.id === 1 ? "2px solid #131954" : "2px solid #111111",
-                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : card.id === 3 ? "0 4px 50px rgba(191,151,171, 0.9)" : card.id === 2 ? "0 4px 50px rgba(255, 105, 180, 0.6)" : card.id === 1 ? "0 4px 50px rgba(28, 43, 186, 0.9)" : "0 4px 50px rgba(110, 0, 110, 0.6)"
+                                    border: card.id === 4 ? "2px solid #68001D" : card.id === 3 ? "2px solid #91646c" : card.id === 2 ? "2px solid #FF69B4" : card.id === 1 ? "2px solid #131954" : card.id === 6 ? "2px solid #C62E2E" : "2px solid #111111",
+                                    boxShadow: card.id === 4 ? "0 4px 50px rgba(140, 0, 140, 0.9)" : card.id === 3 ? "0 4px 50px rgba(191,151,171, 0.9)" : card.id === 2 ? "0 4px 50px rgba(255, 105, 180, 0.6)" : card.id === 1 ? "0 4px 50px rgba(28, 43, 186, 0.9)" : card.id === 6 ? "0 4px 50px rgba(249, 84, 84, 0.8)":"0 4px 50px rgba(110, 0, 110, 0.6)"
 
                                   }
                                 : {}),
