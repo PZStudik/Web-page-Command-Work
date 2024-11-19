@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
     return (
         <header style={styles.header}>
-            <h1 style={styles.textBackground}>My dream team number Dos</h1>
+            <h1 style={styles.textBackground}>Skeleton supa gang</h1>
         </header>
     );
 };
